@@ -5,18 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 @keyframes logo-spin {
   from {
@@ -33,10 +21,19 @@
   }
 }
 
-.card {
-  padding: 2em;
+
+
+.us-map path{
+fill: #42ed50;
+stroke: rgb(6, 4, 4);
+stroke-width: 1;
 }
 
-.read-the-docs {
-  color: #888;
+.us-map path:hover{
+  fill: orange;
+  cursor: pointer;
+}
+
+.us-map path.selected{
+  fill:red
 }

@@ -21,19 +21,48 @@
   }
 }
 
+.title{
+  text-align: center;
+  margin-bottom: 10 px;
+  font-size: 40px;
 
-
-.us-map path{
-fill: #42ed50;
-stroke: rgb(6, 4, 4);
-stroke-width: 1;
 }
 
-.us-map path:hover{
-  fill: orange;
+.authors{
+  list-style: none;
+  padding: 0;
+  margin: 10;
+  text-align: center;
+}
+
+.back-button{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 14px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-.us-map path.selected{
-  fill:red
+h1,h2,p{
+  margin: 0;
+  padding: 0;
+}
+
+.us-map{
+  display: block;
+  line-height: 0;
+}
+
+.us-map path{
+stroke: rgb(6, 4, 4);
+stroke-width: 1.5;
+}
+
+.us-map path:hover{
+  fill: orange !important;
+  cursor: pointer;
 }

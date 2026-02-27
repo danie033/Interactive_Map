@@ -19,7 +19,12 @@ function App() {
           path="/"
           element={
             <>
-              <h1>Home Page</h1>
+              <h1 className='title'>Predicting Medicare Payment</h1>
+              <ul className='authors'>
+                <li>Daniel Figueroa</li>
+                <li>Zak Holt</li>
+                <li>Ayaam Choudhary</li>
+              </ul>
 
               <Link to="/about">
                 <button>Visualize US Map</button>
